@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 from djplatter import __version__, __author__
 
-#TODO: Description, classifiers
+# TODO: Description, classifiers
 setup(
     name="djplatter",
     version=__version__,
