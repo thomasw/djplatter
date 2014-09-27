@@ -1,5 +1,5 @@
-class TemplateDirectory(object):
-    def __init__(self, template_dir, config_file_name='config.json',
+class ContentCollection(object):
+    def __init__(self, template_dir, config_file_name='overrides.json',
                  file_types=('.html',), ignore_prefixes=('_',)):
         self.template_dir = template_dir
         self.config_file_name = config_file_name
